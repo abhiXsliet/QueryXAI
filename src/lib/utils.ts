@@ -16,8 +16,8 @@ export function absoluteUrl(path: string) {
 }
 
 export function constructMetadata({
-  title = "Quill - the SaaS for students",
-  description = "Quill is an open-source software to make chatting to your PDF files easy.",
+  title = "QueryXAI - the SaaS for students",
+  description = "QueryXAI is an open-source software to make chatting to your PDF files easy.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false
@@ -48,7 +48,7 @@ export function constructMetadata({
       creator: "@joshtriedcoding"
     },
     icons,
-    metadataBase: new URL('https://quill-jet.vercel.app'),
+    metadataBase: new URL('https://QueryXAI-jet.vercel.app'),
     themeColor: '#FFF',
     ...(noIndex && {
       robots: {
